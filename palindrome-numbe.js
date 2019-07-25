@@ -4,7 +4,7 @@ let isPalindrome = function(x) {
     .split('')
     .reverse()
     .join('');
-  console.log(typeof +num);
+  
   if (+num === x) {
     return true;
   } else {
